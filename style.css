@@ -1,0 +1,150 @@
+body {
+    box-sizing: border-box;
+    display: flex;      
+    flex-direction: column;
+    align-items: center;
+    background: rgb(17, 54, 105);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+        
+}
+
+header {
+   display: flex;
+   width: 100%; 
+   justify-content: center;   
+
+}
+header h1 {   
+    width: 100%;
+    box-shadow: 0 0 2px #fff;
+    color: #eee;
+    text-align: center;
+}
+.main {
+    width: 100%;
+    background: #184c95;
+    display: flex;
+    gap: 10px;
+}
+.main .settings {
+    display: flex;
+    margin: auto;    
+    gap: 5px;
+    flex-direction: column;
+}
+
+.settings button {
+    background: rgba(47, 42, 42, 0.914);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;   
+    border-left: 1px solid #eee;
+    color: #eee;    
+}
+
+.settings #grid-size {  
+    margin-top: 15px; 
+    color: #eee;    
+}
+.settings button:hover {
+    background: #eee;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;   
+    border-right: 1px solid black;
+    color: black;    
+}
+.settings #color-control-msg {
+    text-align: center;
+    padding: 5px;
+    color: #eee;
+    border-bottom: 1px solid #eee;
+    margin: 0;
+    font-size: 25px;    
+}
+.settings #color-control {
+    background: none;
+    padding: 0;    
+    height: 160px;
+    width: 160px;
+    border: none;    
+    
+}
+.settings #grid-pxl {
+   color: #eee;  
+   margin-top: 0; 
+   font-size: 20px;
+   font-weight: 600;
+}
+
+
+
+.grid {
+    display: flex;
+    width: 550px;  
+    height: 550px;  
+    gap: 1px;  
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.test {  
+   background: rgb(136, 12, 12);
+}
+
+.grid .flexRow {
+    width: 100%;
+    height: 100%;
+    gap: 1px;
+    display: flex;      
+}
+
+footer {
+    display: flex;   
+    align-items: center;
+    border-radius: 4px;
+    width: 30%;
+    gap: 10px;
+    border:1px solid #eee;
+    padding: 10px;    
+    background: #184c95;    
+}
+footer >* {   
+    background: #eee;
+    
+}
+footer p {
+    font-size: 20px;
+    text-align: center;
+    width: 80%;  
+    padding: 10px;
+    border-radius: 2px;
+}
+footer span { 
+   margin-left: auto; 
+   margin-right: 0; 
+    display: flex;
+    justify-items: center;   
+    background: #eee;
+    height: 40px;
+    border-radius: 4px;
+    
+}
+footer span img {
+    width: 38px;
+    height: 38px;     
+}
+
+#h2-footer {    
+   color: #dddddde8;  
+   margin-bottom: 5px;   
+}
+
+
+
+
+
+
+
